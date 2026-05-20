@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# well, this one should show all ips on the host
+
+ifconfig | grep 'inet ' | awk '{print $2}'
