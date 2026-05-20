@@ -1,0 +1,4 @@
+!/usr/bin/env bash
+# this will show listening
+
+nc -lk 98
